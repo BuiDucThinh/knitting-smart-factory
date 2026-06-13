@@ -114,6 +114,24 @@ Khi khởi động, ứng dụng sẽ chạy các luồng nền cho TCP server m
 
 Thư mục `guideBoard/` chứa sơ đồ và tài liệu tham khảo cho board mạch WiFi (ESP32) tự thiết kế, lắp trên từng máy dệt, bao gồm sơ đồ đấu nối cảm biến, relay và module WiFi giao tiếp với trạm trung tâm.
 
+## Hình ảnh triển khai thực tế
+
+### Trạm điều khiển trung tâm
+
+| Thiết kế 3D | Thực tế (mặt trước) | Thực tế (mặt hông - bảng thông tin) |
+|---|---|---|
+| ![Thiết kế trạm điều khiển trung tâm](deployImages/01-thiet-ke-tram-dieu-khien.jpg) | ![Trạm điều khiển trung tâm mặt trước](deployImages/02-tram-dieu-khien-mat-truoc.jpg) | ![Trạm điều khiển trung tâm mặt hông](deployImages/03-tram-dieu-khien-mat-hong.jpg) |
+
+### Board IoT cấy vào máy dệt
+
+| Thiết kế hộp board | Chế tạo & kiểm tra | Board đã hoàn thiện | Cấy vào máy dệt |
+|---|---|---|---|
+| ![Thiết kế hộp board IOT](deployImages/04-thiet-ke-hop-board-iot.jpg) | ![Chế tạo board IOT](deployImages/05-che-tao-board-iot.jpg) | ![Board IOT đã hàn linh kiện](deployImages/06-board-iot-hoan-thien.jpg) | ![Cấy board IOT vào máy dệt](deployImages/07-cay-board-iot-vao-may-det.jpg) |
+
+### Hệ thống loa mạng không dây
+
+![Loa mạng không dây](deployImages/08-loa-mang-khong-day.jpg)
+
 ## Lưu ý về dữ liệu
 
 Repo này là bản trình bày (portfolio) của một hệ thống đang chạy thực tế. Các dữ liệu mẫu (ảnh công nhân, báo cáo sản xuất, thông tin đăng nhập thật) không nên public — xem `.gitignore` để biết các mục đã loại trừ, và thay file `database/database_config.ini` bằng thông tin của bạn trước khi chạy.
