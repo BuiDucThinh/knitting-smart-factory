@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Qt Creator user/session files
+*.pyproject.user
+*.pyproject.user.*
+
+# Database credentials - replace with database_config.ini.example before sharing
+KF4/database/database_config.ini
+
+# Private / sensitive data - worker photos & ID cards
+KF4/userImages/
+
+# Real production reports
+KF4/pdfFabricDelivery/
