@@ -132,9 +132,6 @@ Thư mục `guideBoard/` chứa sơ đồ và tài liệu tham khảo cho board 
 
 ![Loa mạng không dây](deployImages/08-loa-mang-khong-day.jpg)
 
-## Lưu ý về dữ liệu
-
-Repo này là bản trình bày (portfolio) của một hệ thống đang chạy thực tế. Các dữ liệu mẫu (ảnh công nhân, báo cáo sản xuất, thông tin đăng nhập thật) không nên public — xem `.gitignore` để biết các mục đã loại trừ, và thay file `database/database_config.ini` bằng thông tin của bạn trước khi chạy.
 
 ## Tác giả
 
